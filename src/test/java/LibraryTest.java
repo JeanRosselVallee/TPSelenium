@@ -67,7 +67,8 @@ public class LibraryTest {
 		
     	
 		String resultat_reel=driver.findElement(By.xpath("//*[@id=\"firstHeading\"]")).getText() ;
-    	Assert.assertEquals(resultat_reel,"FIFA World Cup");
+    	//Assert.assertEquals(resultat_reel,"FIFA World Cup");
+    	Assert.fail();
     	
 }
 
